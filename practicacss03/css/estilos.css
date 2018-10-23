@@ -1,0 +1,116 @@
+body{
+    font-size: 16px;
+    max-width: 1078px;
+    min-width: 1078px;
+    border: 1px solid black;
+    margin: 0px auto;
+    background: #2B2B2B;
+   
+}
+header{
+    background: #F0F0F0;
+}
+header input{
+    width: 170px;
+    height: 60px;
+    margin-left: 90px;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+header img{
+    width: 70%;
+}
+body section{
+    background: #2B2B2B;
+
+}
+#logo{
+    height: 90px;
+    margin-left: 20px;
+}
+#secc01 nav ul li{
+    display: block;
+    margin-left: 50px;
+    color: white;
+    margin-top: 5px;
+}
+#secc01 article{
+    display: inline-block;
+    width: 17%;
+    vertical-align: top;
+    margin-top: 15px;
+    
+}
+
+#secc01art01{
+    vertical-align: top;
+    display: inline-block;
+    
+}
+#secc01art02{
+    margin-left: 80px;
+    background-color: #A4E522;
+    height: 300px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right:5px;  
+    
+}
+#secc01art03{
+    background: gray;
+    height: 300px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right:5px; 
+}
+#secc01art04{
+    background: red;
+    height: 300px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right:5px; 
+}
+#secc01art05{
+    background: lightgray;
+    height: 300px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right:5px;
+}
+#secc02{
+    margin-top:10px; 
+    border-top: 1px solid gray;
+}
+
+#secc02 img{
+    width: 23%;
+    margin-left: 80px;
+    margin-top: 25px;
+    margin-right: 20px;
+    
+}
+
+#secc03 article{
+    width:27%;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+    vertical-align: top;
+    border-top: 1px dashed gray;
+    height: 200px;
+    padding: 10px; 
+    text-align: justify;
+    
+}
+
+
+.letragrande{
+    font-size: 1.5em;
+}
+.colorgris{
+    color: #F0F0F0;
+}
+.colorblanco{
+    color: white;
+}

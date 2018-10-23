@@ -1,0 +1,54 @@
+/* imagen con atributo alt */
+img[alt]{
+    border: 5px solid blue;
+}
+/* Imagen con una cadena SRC exacta */
+img[src="img/Logo_tec.png"]{
+    width: 400px;
+}
+/* ^ <- caracter circunflejo */
+img[src^="img/"]{
+    width: 150px;
+}
+
+/* $ al final de la cadena */
+img[src$="png"]{
+    width: 250px;
+}
+
+/* * cualquier parte de la cadena */
+img[src*="mg/"]{
+    width: 100px;
+}
+article[class~="resaltado"]{
+    border:1px dashed blue;
+}
+article[class~="archivo"]{
+    border:1px dashed red;
+}
+article[class~="ingles"]{
+    border:1px dashed green;
+}     
+
+/* |= distingue las clases unidad por guiones */
+article[class|="ingles"]{
+    text-align: center;
+}
+
+/* selector de secundarios , selecciona hijos directos es el > */
+div > p{
+    color:blue
+}
+div p {
+    color: red;
+}
+
+/* Selecciona el elemento que p que le sigue */
+h2 + p{
+    color: green;
+}
+
+/* Todos los elementos p despues del elemento h2 */
+h2 ~ p{
+    color: gray;
+}
