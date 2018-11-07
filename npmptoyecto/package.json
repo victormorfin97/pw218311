@@ -1,0 +1,24 @@
+{
+  "name": "proyectoprueba",
+  "version": "0.0.0",
+  "description": "Aprenender el uso de npm en los poryectos web",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "proyecto",
+    "prueba",
+    "aprender",
+    "web"
+  ],
+  "author": "Victor Morfin",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.8",
+    "electron-packager": "^12.2.0",
+    "electron-require": "^0.3.0"
+  }
+}

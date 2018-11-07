@@ -1,0 +1,37 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    /* requerimiento del cliente */
+    max-width: 1024px;
+    min-width: 1024px;
+    border: 1px solid blue;
+    
+}
+header img{
+    float: right;
+    margin-top: 15px;
+}
+
+section article nav{
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 1px solid blue;
+    width: 500px;
+}
+section article nav ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#logo{
+   
+    margin-top: 60px;
+    margin-left: 10px;
+    border: 1px solid blue;
+   
+}
+#go_to_shop{
+    
+    float: right;
+    position: relative;
+}

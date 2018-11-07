@@ -1,0 +1,114 @@
+body{
+    font-size: 16px; /*1em*/
+    margin: 0px auto;
+    max-width: 1042px;
+    min-width: 1024px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+header img[alt="Logo"]{
+    margin-top: 30px;
+    height: 50px;
+    margin-left: 20px;
+}
+header input{
+    width: 300px;
+    margin-left: 300px;
+    vertical-align: top;
+    margin-top:50px;
+}
+header img[alt="Canasta"]{
+    float: right;
+    height: 50px;
+    margin-top: 30px;
+}
+#seccion01{
+    background: #1DDAC0;
+    height: 50px;
+    
+}
+#seccion01 nav ul li{
+ display: inline-block;
+ margin-left: 10px;
+ border-left: 1px solid white;
+ border-right: 1px solid white;
+ margin-top: 15px;
+ padding: 5px;
+ font-size: 0.9em;
+ color: white;
+}
+#seccion02{
+    background: #1DC6AF;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#seccion02 article{
+    width: 40%;
+    display: inline-block;
+    padding-bottom: 30px; 
+    
+}
+#secc02art01{
+    vertical-align: top;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+   
+    
+}
+#secc02art01 input{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 90px;
+    height: 40px;
+    background: #1ED6BD;
+    color: white;
+    border: 2px solid white;
+}
+#secc02art02{
+    position: relative;
+    margin-right: 5px; 
+}
+#seccion03{
+    background: #1ED6BD;
+    padding:10px;
+    padding-left: 40px;
+}
+#seccion04{
+}
+#seccion04 article{
+ width: 20%;
+ border: 1px solid gray;
+ display: inline-block;
+ margin-top: 40px;
+ margin-left: 100px;
+ vertical-align: top;
+ height: 250px;
+ padding: 10px;
+ border-bottom: 10px solid #1ED6BD;
+ text-align: center;
+}
+
+#seccion04 article img{
+    width: 200px;
+    height: 170px;
+}
+#seccion04 input{
+    background: #1ED6BD;
+    color:white;
+    height: 40px;
+    margin-left: 50px;
+    
+}
+.colorblanco{
+    color: white;
+}
+.letragrande{
+    font-size: 2em;
+}
+.letramediana{
+    font-size: 1.4em;
+}
+.colorgris{
+    color:gray;
+}
